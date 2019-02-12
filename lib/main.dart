@@ -67,7 +67,7 @@ class RandomWordsState extends State<RandomWords> {
         style: _biggerFont,
       ),
       subtitle: new Text(pair.asLowerCase,
-      style: TextStyle(fontSize: 20.0)),
+      style: TextStyle(fontSize: 25.0)),
 
       trailing: new Icon(
         alreadySaved ? Icons.favorite : Icons.favorite_border,
